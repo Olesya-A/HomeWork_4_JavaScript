@@ -50,4 +50,6 @@ xxx
 xxxx
 xxxxx */
 
-const a = Array.from({ length: 20 }, (_, i) => console.log("х".repeat(i + 1)));
+for (let i = 0; i < 20; i++) {
+  console.log("х".repeat(i + 1));
+}
